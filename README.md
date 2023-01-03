@@ -12,7 +12,7 @@ As you will see reading the age notebook, predicting a real (continuous) value f
 This is why we decided to look at some "critical" percentiles of the predicted distribution, because we noticed that our model, in the first epochs and then after a lot of epochs, tended to return the same "average" value.
 For this reason, we created a custom early-stopping metric, which was the sum of the absolute difference between the true percentiles values and the predicted ones, to make the training stop after reaching an enough similar distribution.
 
-To read them, you should follow this order:
+## In reading the projects, you should follow this order:
 
 1. [Ethnicity classification](https://github.com/leoiania/utk-age-and-ethnicity/blob/main/ethnicity_classification.ipynb)
 2. [Age regression](https://github.com/leoiania/utk-age-and-ethnicity/blob/main/age_regression.ipynb)
