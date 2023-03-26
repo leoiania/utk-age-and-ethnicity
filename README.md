@@ -14,5 +14,5 @@ For this reason, we created a custom early-stopping metric, which was the sum of
 
 ## In reading the projects, you should follow this order:
 
-1. [Ethnicity classification](https://github.com/leoiania/utk-age-and-ethnicity/blob/main/ethnicity_classification.ipynb)
-2. [Age regression](https://github.com/leoiania/utk-age-and-ethnicity/blob/main/age_regression.ipynb)
+1. [Ethnicity classification](https://github.com/leoiania/utk-age-and-ethnicity/blob/master/notebooks/ethnicity_classification.ipynb)
+2. [Age regression](https://github.com/leoiania/utk-age-and-ethnicity/blob/master/notebooks/age_regression.ipynb)
