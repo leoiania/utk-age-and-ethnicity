@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My HTML Page</title>
+    <style>
+      #my-file-input::-webkit-file-upload-button {
+          visibility: hidden;
+      }
+      #my-file-input::before {
+          content: 'Select a file';
+          display: inline-block;
+          background: #007bff;
+          color: #fff;
+          padding: 8px 20px;
+          border-radius: 4px;
+          outline: none;
+          white-space: nowrap;
+          -webkit-user-select: none;
+          cursor: pointer;
+          text-shadow: 0 -1px 0 rgba(0,0,0,0.12);
+          font-weight: 600;
+          font-size: 14px;
+          line-height: 1.5;
+      }
+      #my-file-input:hover::before {
+          background: #0069d9;
+      }
+      #my-file-input:active::before {
+          background: #0062cc;
+      }
+  </style>
+</head>
+<body style="background-color:khaki;">
+    <center>
+        <form action="/upload" method="post" enctype="multipart/form-data" class="upload-file">
+            <input type="file" id="my-file-input" name="image">
+            
+            
+            <input type="submit" id="my-file-input" value="Upload">
+        </form>
+        <img src="{{ picture }}" width="500" height="600">
+        <h2>
+            Predicted age is: {{pred_age}}
+        </h2>    
+    </center>
+</body>
+</html>
