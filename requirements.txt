@@ -9,4 +9,5 @@ dill
 flask
 torch
 torchvision
+streamlit
 -e .
