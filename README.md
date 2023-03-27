@@ -5,6 +5,16 @@ Starting from the UTK Face Dataset we created two different neural networks to p
 
 The labels are written in the file name - there is also the sex label, but we didn't use it.
 
+
+## Streamlit app
+
+Some months after presenting this project for Deep Learning exam, I decided to use it for applying Streamlit knowledge for the creation of an interactive app that, given a picture uploaded by the user, returns the predicted age .
+
+<img src="age_preds.gif" alt="gif" width="800" height="450">
+
+
+
+
 ## The metric problem in age regression
 
 As you will see reading the age notebook, predicting a real (continuous) value for the age, instead of creating 100+ categories, lead to a problem: there are no reliable metrics to manage, during the training, to check the results.
