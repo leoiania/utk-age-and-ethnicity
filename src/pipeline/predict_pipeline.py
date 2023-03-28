@@ -19,7 +19,7 @@ class PredictPipeline:
             t1 = trans.tensorize(img)
             t1 = t1.unsqueeze(0)
             
-            return model(t1)
+            return model.forward(t1)
         
         except Exception as e:
             raise CustomException(e,sys)
